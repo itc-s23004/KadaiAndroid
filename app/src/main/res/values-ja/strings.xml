@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ポケモン比較アプリ</string>
+    <string name="pokemon1_hint">図鑑番号を入力</string>
+    <string name="compare_button">検索</string>
+</resources>

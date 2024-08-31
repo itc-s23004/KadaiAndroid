@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ポケモン1の名前を入力するフィールド -->
+    <EditText
+        android:id="@+id/pokemon1_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pokemon1_hint" />
+
+    <!-- ポケモン2の名前を入力するフィールド -->
+
+    <!-- 比較ボタン -->
+    <Button
+        android:id="@+id/compare_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/compare_button" />
+
+    <!-- ポケモンの名前を表示するテキストビュー -->
+    <TextView
+        android:id="@+id/pokemon_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp" />
+
+    <!-- ポケモンの統計情報を表示するテキストビュー -->
+    <TextView
+        android:id="@+id/pokemon_stats_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp" />
+
+    <!-- 比較結果を表示するリスト -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pokémon Comparison App</string>
+    <string name="pokemon1_hint">Enter Pokémon Number</string>
+    <string name="compare_button">Search</string>
+</resources>
